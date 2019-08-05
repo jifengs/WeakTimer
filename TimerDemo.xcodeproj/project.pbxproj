@@ -16,6 +16,7 @@
 		B294611722F82A3A001339E1 /* TimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B294611622F82A3A001339E1 /* TimerController.m */; };
 		B294611A22F82BB7001339E1 /* TimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = B294611922F82BB7001339E1 /* TimerTarget.m */; };
 		B294611D22F83A36001339E1 /* TimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B294611C22F83A36001339E1 /* TimerProxy.m */; };
+		B294612322F85D1A001339E1 /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B294612222F85D1A001339E1 /* NSTimer+WeakTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		B294611922F82BB7001339E1 /* TimerTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTarget.m; sourceTree = "<group>"; };
 		B294611B22F83A36001339E1 /* TimerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerProxy.h; sourceTree = "<group>"; };
 		B294611C22F83A36001339E1 /* TimerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerProxy.m; sourceTree = "<group>"; };
+		B294612122F85D1A001339E1 /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
+		B294612222F85D1A001339E1 /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				B294611922F82BB7001339E1 /* TimerTarget.m */,
 				B294611B22F83A36001339E1 /* TimerProxy.h */,
 				B294611C22F83A36001339E1 /* TimerProxy.m */,
+				B294612122F85D1A001339E1 /* NSTimer+WeakTimer.h */,
+				B294612222F85D1A001339E1 /* NSTimer+WeakTimer.m */,
 				B294610522F829AC001339E1 /* Main.storyboard */,
 				B294610822F829AD001339E1 /* Assets.xcassets */,
 				B294610A22F829AD001339E1 /* LaunchScreen.storyboard */,
@@ -160,6 +165,7 @@
 				B294610422F829AC001339E1 /* ViewController.m in Sources */,
 				B294611722F82A3A001339E1 /* TimerController.m in Sources */,
 				B294610F22F829AD001339E1 /* main.m in Sources */,
+				B294612322F85D1A001339E1 /* NSTimer+WeakTimer.m in Sources */,
 				B294610122F829AC001339E1 /* AppDelegate.m in Sources */,
 				B294611A22F82BB7001339E1 /* TimerTarget.m in Sources */,
 			);
