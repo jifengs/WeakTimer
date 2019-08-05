@@ -59,9 +59,9 @@
     
     //方法四：使用block
     __weak typeof(self) weakSelf = self;
-    self.timer = [NSTimer jf_scheduledTimerWithTimeInterval:2 block:^{
+    self.timer = [NSTimer jf_scheduledTimerWithTimeInterval:2  repeats:YES block:^{
         [weakSelf timeFire];
-    } repeats:YES];
+    }];
 }
 
 - (void)timeFire {

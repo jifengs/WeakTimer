@@ -11,9 +11,8 @@
 @implementation NSTimer (WeakTimer)
 
 + (NSTimer *)jf_scheduledTimerWithTimeInterval:(NSTimeInterval)interval
-                                         block:(void(^)(void))block
                                        repeats:(BOOL)repeats
-{
+                                         block:(void(^)(void))block {
     return [self scheduledTimerWithTimeInterval:interval
                                          target:self
                                        selector:@selector(jf_blockInvoke:)

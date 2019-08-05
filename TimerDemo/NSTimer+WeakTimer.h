@@ -13,8 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSTimer (WeakTimer)
 
 + (NSTimer *)jf_scheduledTimerWithTimeInterval:(NSTimeInterval)interval
-                                         block:(void(^)(void))block
-                                       repeats:(BOOL)repeats;
+                                       repeats:(BOOL)repeats
+                                         block:(void(^)(void))block;
 
 @end
 
